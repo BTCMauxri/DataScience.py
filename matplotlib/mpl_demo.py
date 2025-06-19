@@ -1,6 +1,7 @@
 # Mauricio Villegas | matplotlib demo/practice
 # Tracking the price of three stock tickers over a span of 10 years
 # Tickers --> $TSLA, $AMZN, $NVDA (my favorite stocks)
+# link to plot format settings: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
 
 # import matplot and rename for simplicity
 from matplotlib import pyplot as plt
