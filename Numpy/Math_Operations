@@ -1,0 +1,34 @@
+import numpy as np
+
+# This script will demonstrate the difference in mathematical operations
+# between lists and numpy arrays in python
+# Creating 2 lists
+l1 = [1, 2, 3, 4, 5]
+l2 = [6, 7, 8, 9, 10]
+
+# Creating 2 numpy arrays from the lists
+a1 = np.array(l1)
+a2 = np.array(l2)
+
+
+print(f"The result of multiplying list 1 by 5 is: {l1 * 5}")
+print(f"The result of multiplying array 1 by 5 is: {a1 * 5}")
+
+# Similarly with multi-dimensional arrays
+a3 = np.array([1, 2, 3])    # a 1 * 3 array
+a4 = np.array([[4],         # a 2 by 1 array
+               [5]])
+
+print(a3 + a4)              # addition
+print(a3 - a4)              # subtraction
+print(a3 * a4)              # multiplication
+print(a3 / a4)              # division
+
+# some of these operations would work differently or not work on normal lists
+
+# The following are some mathematical functions 
+a = np.array([[4, 9, 16],
+              [25, 36, 49]])
+
+print(np.sqrt(a))           # The square root function
+# there are also pn.sin() , np.cos(), etc
